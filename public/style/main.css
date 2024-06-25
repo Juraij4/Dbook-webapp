@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.content{
+    background-image: url(https://c1.wallpaperflare.com/preview/127/366/443/library-book-bookshelf-read.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.head{
+ font-size: 100px;
+  color: white;
+  position: absolute;
+  top:170px
+}
+
+.field{
+width: 40%;
+}
+
+.input{
+    width: 100%;
+    max-width: 600px;
+    height: 35px;
+    padding: 20px;
+    outline: none;
+    border-color: bisque;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.input:focus{
+    border-color: rgb(255, 140, 0);
+}
+
+.submit{
+    position: absolute;
+    right: 31.7%;
+    top: 48.4%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: none;
+    /* font-size: 17px; */
+}
+
+.submit:hover{
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+
+.result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.card{
+width: 80%;
+min-height: 70vh;
+height: auto;
+}
+
+li{
+    list-style-type:circle;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: 0.3s;
+}
+a:hover{
+    color: red;
+}
+
+body{
+   background-image: url('https://img.freepik.com/free-photo/books-arrangement-with-copy-space_23-2150264106.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;
+   
+   
+}
+
+.card-body{
+    padding-top: 40px;
+}
+
+
